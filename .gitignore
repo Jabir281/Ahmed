@@ -1,0 +1,35 @@
+# Ignore virtual environment
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# PDF files (too large for git)
+pdfs/*.pdf
+input/*.pdf
+output/*.pdf
+*.pdf
+
+# Keep folder structure but ignore contents
+JSON/*
+!JSON/.gitkeep
+output/*
+!output/.gitkeep
+input/*
+!input/.gitkeep
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
