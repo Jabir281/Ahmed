@@ -28,12 +28,18 @@ tesseract --version
 echo "[5/5] Installing Python dependencies..."
 pip install -q -r requirements.txt
 
+# Download PDF from Google Drive
+echo ""
+echo "[6/6] Downloading PDF from Google Drive..."
+gdown --id 1Ag8SIvVf8PkmcdfOdMx2yM-gRL1hy1hq -O pdfs/COMS_new.pdf
+
 echo ""
 echo "=============================================="
 echo "Setup Complete!"
 echo "=============================================="
 echo ""
+echo "PDF downloaded to: pdfs/COMS_new.pdf"
+echo ""
 echo "To run the deduplication tool:"
-echo "  1. Upload your PDF to the 'pdfs' folder"
-echo "  2. Run: python codes/dedup_from_json.py"
+echo "  python codes/dedup_from_json.py"
 echo ""

@@ -9,5 +9,8 @@ pdf2image>=1.16.0
 pytesseract>=0.3.10
 Pillow>=10.0.0
 
+# Google Drive download
+gdown>=5.0.0
+
 # Optional: For faster similarity computation (if needed)
 # rapidfuzz>=3.0.0
